@@ -7,33 +7,33 @@
 
 ###Member functions for the WordCrawler class:
 
-Constructor using a string
+-Constructor using a string
 
-prefix operator ++, increments the WordCrawler object to the next word
+-prefix operator ++, increments the WordCrawler object to the next word
 
-prefix operator --, decrements the WordCrawler object to the previous word
+-prefix operator --, decrements the WordCrawler object to the previous word
 
-operator +=, increments the WordCrawler object a specified amount of times
+-operator +=, increments the WordCrawler object a specified amount of times
 
-operator -=, decrements the WordCrawler object a specified amount of times
+-operator -=, decrements the WordCrawler object a specified amount of times
 
-dereference operator, returns the string for the current word the WordCrawler object is pointing to.
+-dereference operator, returns the string for the current word the WordCrawler object is pointing to.
 
-operator [], returns a specified word in a phrase based on user input
+-operator [], returns a specified word in a phrase based on user input
 
-function get_current_word(), returns a pointer to where the WordCrawler is currently pointing
+-function get_current_word(), returns a pointer to where the WordCrawler is currently pointing
 
-function get_final_char(), returns a poitner to the last character in the user inputted string
+-function get_final_char(), returns a poitner to the last character in the user inputted string
 
-function get_first_word(), returns a poitner to the first character in the user inputted string
+-function get_first_word(), returns a poitner to the first character in the user inputted string
 
 
 ###Non-member functions used in the program,utilizing the WordCrawler class:
 
-function the_count, returns an int counting the amount of times "the" appears in a user inputted string
+-function the_count, returns an int counting the amount of times "the" appears in a user inputted string
 
-function word_count, returns an int counting the amount of words in a user inputted string
+-function word_count, returns an int counting the amount of words in a user inputted string
 
-function every_other_in, prints every other word of a user inputted string
+-function every_other_in, prints every other word of a user inputted string
 
-function print_in_reverse, prints the user inputted string in reverse word order.
+-function print_in_reverse, prints the user inputted string in reverse word order.
