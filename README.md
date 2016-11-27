@@ -6,7 +6,7 @@ This C++ program is designed to implement an iterator class WordCrawler. The poi
 ## Functions
 The following will be a list of the member and non member functions. More detailed descriptions can be found within the .cpp file.
 
-Member functions for the WordCrawler class:
+### Member functions for the WordCrawler class:
 
 -Constructor using a string
 
@@ -29,7 +29,7 @@ Member functions for the WordCrawler class:
 -function get_first_word(), returns a poitner to the first character in the user inputted string
 
 
-###Non-member functions used in the program,utilizing the WordCrawler class:
+### Non-member functions used in the program,utilizing the WordCrawler class:
 
 -function the_count, returns an int counting the amount of times "the" appears in a user inputted string
 
