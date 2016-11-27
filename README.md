@@ -1,11 +1,12 @@
 # String-Iterator
 
-##This C++ program is designed to implement an iterator class WordCrawler. The point of this class is to act as a pointer for a phrase of words, utilizing operator overloading for incrementing and dereferencing functions. An increment of a WordCrawler object is specified to go from one word to the next or previous one. Furthermore, the class is designed using no deep copies so it takes up minimal space. There are 4 non-member functions used throughout the program. These utilize the WordCrawler class to accomplish their specific goal. A quick main function was included to highlight the capabilities of the class.
+## Description
+This C++ program is designed to implement an iterator class WordCrawler. The point of this class is to act as a pointer for a phrase of words, utilizing operator overloading for incrementing and dereferencing functions. An increment of a WordCrawler object is specified to go from one word to the next or previous one. Furthermore, the class is designed using no deep copies so it takes up minimal space. There are 4 non-member functions used throughout the program. These utilize the WordCrawler class to accomplish their specific goal. A quick main function was included to highlight the capabilities of the class.
 
-##The following will be a list of the member and non member functions. More detailed descriptions can be found within the .cpp file.
+## Functions
+The following will be a list of the member and non member functions. More detailed descriptions can be found within the .cpp file.
 
-
-###Member functions for the WordCrawler class:
+Member functions for the WordCrawler class:
 
 -Constructor using a string
 
